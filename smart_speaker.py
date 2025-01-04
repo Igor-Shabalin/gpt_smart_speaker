@@ -14,7 +14,7 @@
 Требования:
 - Python 3.7+
 - USB аудио устройство
-- Google Cloud credentials (файл ge200.json)
+- Google Cloud credentials (файл ваш файл.json)
 - Установленные библиотеки: google-cloud-speech, google-cloud-texttospeech,
   pyaudio, pygame, alsaaudio
 
@@ -43,7 +43,7 @@ CHUNK = int(RATE / 10)  # Размер чанка (100ms)
 MIN_TEXT_LENGTH = 3  # Минимальная длина текста для обработки
 PAUSE_TIME = 1.5  # Минимальная пауза между обработками (сек)
 LANGUAGE_CODE = "ru-RU"  # Язык распознавания
-CREDENTIALS_FILE = "ge200.json"  # Файл с учетными данными Google Cloud
+CREDENTIALS_FILE = "ваш файл.json"  # Файл с учетными данными Google Cloud
 OUTPUT_FILE = "output.mp3"  # Файл для временного хранения аудио
 
 # Настройка окружения
